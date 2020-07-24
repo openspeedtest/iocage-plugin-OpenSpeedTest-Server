@@ -1,5 +1,5 @@
 {
-    "name": "openspeedtest-server",
+    "name": "OpenSpeedTest-Server",
     "release": "11.3-RELEASE",
     "artifact": "https://github.com/openspeedtest/iocage-plugin-OpenSpeedTest-Server.git",
     "properties": {
