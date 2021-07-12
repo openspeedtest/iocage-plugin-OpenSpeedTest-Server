@@ -26,13 +26,15 @@
          url('./fonts/roboto-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
          url('./fonts/roboto-v20-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
   }
-  
+  ::-webkit-scrollbar {
+    display: none;
+  }
   
   body {
     margin: 0px;
     padding: 0px;
     display: block; 
-   
+    overflow: hidden;
   }
    
   .ConnectError{

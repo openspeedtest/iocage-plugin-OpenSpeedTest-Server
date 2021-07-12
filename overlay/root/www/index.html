@@ -24,8 +24,28 @@
 <body>
   <script type="text/javascript">
 
-
-
+    /*
+         ©CopyRight 2013-2022 by OpenSpeedTest.COM. All Rights Reserved. 
+         Official Website : https://OpenSpeedTest.COM | Email: support@openspeedtest.com
+         Developed by : Vishnu | https://Vishnu.Pro | Email : me@vishnu.pro 
+                
+         HTML5 Network Performance Estimation Tool -> [JS,XHR,SVG,HTML,CSS]
+         Started in 2011 and Moved to OpenSpeedTest.COM Dedicated Project/Domain Name in 2013.
+         SpeedTest Script -> 2013 -> Beta | 2015 -> V1 | 2019 ->V2 | 2020 V2.1 | 2021 V2.12.
+    
+         Self-Hosted OpenSpeedTest-Server (iFrame/Nginx) -> 2014.
+         OpenSpeedTest-Server (On-premises)
+         [Docker] -> V1 2019 | V2 2020 | V2.1 2021
+         [Node.js/Electron JS] -> 2020 V1 | 2021 V2 & V2.1
+         Download -> https://go.openspeedtest.com/Server
+    
+         Like this Project? Please Donate NOW & Keep us Alive -> https://go.openspeedtest.com/Donate
+    
+         Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
+         Read full license terms @ http://go.openspeedtest.com/License
+         If you have any Questions, ideas or Comments Please Send it via -> https://go.openspeedtest.com/SendMessage
+    
+    */
 
     var comopenspeedtesturl = {
       "serverList": [
@@ -397,7 +417,7 @@ If you like to make any modification to this application please contact support@
             and back. This is the sum of all encoding, queueing, processing, decoding, and propagation delays in both
             directions. Essentially, it's the delay when A may be expecting an answer from B for a request that requires
             very little processing. A fast ping means a more responsive connection, especially in applications where
-            timing is everything (like video games). Ping is measured in milliseconds (ms).
+            timing is everything (like video games). Ping is measured in Microseconds (ms).
 
             Jitter is simply the difference in Ping "Round-trip time" . In other words, jitter is measuring time
             difference in packet inter-arrival time. Jitter helps diagnose internet connection stability. The higher the
@@ -425,10 +445,10 @@ If you like to make any modification to this application please contact support@
         <use xlink:href="#pingSymbol" x="351.4" y="243.8" width="14.3" height="14.4"></use>
         <use xlink:href="#pingSymbol" x="481.3" y="244.6" width="14.33" height="14.4"></use>
         <use xlink:href="#pingRc3" x="367.01" y="244.68" width="28" height="16">
-          <title id="title1">Ping is measured in milliseconds (ms).</title>
+          <title id="title1">Ping is measured in Microseconds (ms).</title>
         </use>
         <use xlink:href="#jitterRc3" x="495.61" y="246.3" width="39.95" height="13.85">
-          <title id="title1">Jitter is measured in milliseconds (ms).</title>
+          <title id="title1">Jitter is measured in Microseconds (ms).</title>
         </use>
         <use xlink:href="#upSymbol" class="Symbol" x="329" y="146.5" width="11.8" height="13.9"></use>
         <use xlink:href="#downSymbol" class="Symbol" x="318.7" y="51.9" width="11.8" height="13.8"></use>
@@ -472,10 +492,10 @@ If you like to make any modification to this application please contact support@
         <use xlink:href="#pingSymbol" x="351.4" y="243.8" width="14.3" height="14.4"></use>
         <use xlink:href="#pingSymbol" x="481.3" y="244.6" width="14.33" height="14.4"></use>
         <use xlink:href="#pingRc3" x="367.01" y="244.68" width="28" height="16">
-          <title id="title1">Ping is measured in milliseconds (ms).</title>
+          <title id="title1">Ping is measured in Microseconds (ms).</title>
         </use>
         <use xlink:href="#jitterRc3" x="495.61" y="246.3" width="39.95" height="13.85">
-          <title id="title1">Jitter is measured in milliseconds (ms).</title>
+          <title id="title1">Jitter is measured in Microseconds (ms).</title>
         </use>
         <use xlink:href="#upSymbol" class="Symbol" x="329" y="146.5" width="11.8" height="13.9"></use>
         <use xlink:href="#downSymbol" class="Symbol" x="318.7" y="51.9" width="11.8" height="13.8"></use>
@@ -543,7 +563,7 @@ If you like to make any modification to this application please contact support@
             and back. This is the sum of all encoding, queueing, processing, decoding, and propagation delays in both
             directions. Essentially, it's the delay when A may be expecting an answer from B for a request that requires
             very little processing. A fast ping means a more responsive connection, especially in applications where
-            timing is everything (like video games). Ping is measured in milliseconds (ms).
+            timing is everything (like video games). Ping is measured in Microseconds (ms).
 
             Jitter is simply the difference in Ping "Round-trip time" . In other words, jitter is measuring time
             difference in packet inter-arrival time. Jitter helps diagnose internet connection stability. The higher the
@@ -567,7 +587,7 @@ If you like to make any modification to this application please contact support@
           <title id="title1">Upload speed is measured in megabits per second (Mbps).</title>
         </use>
         <use xlink:href="#pingRc3" x="143.88" y="301.72" width="26" height="15">
-          <title id="title1">Ping is measured in milliseconds (ms).</title>
+          <title id="title1">Ping is measured in Microseconds (ms).</title>
         </use>
         <use xlink:href="#upSymbol" class="Symbol" x="221.8" y="303.42" width="12.3" height="10.6"></use>
         <use xlink:href="#downSymbol" class="Symbol" x="7.7" y="303.42" width="10.6" height="12.4"></use>
@@ -625,9 +645,10 @@ If you like to make any modification to this application please contact support@
     </radialGradient>
   </svg>
 
-  </br>
-  <div align="center">
-    <a id='text' href="http://openspeedtest.com?ref=OfflineTool">Speedtest by OpenSpeedtest.com!</a>
+  <!-- use display:none; if you like to hide this credit text -->
+  <div style="text-align: center;">
+    <a id='text' href="http://openspeedtest.com?ref=OfflineTool">SpeedTest by
+      OpenSpeedTest.COM</a>
   </div>
   <script src="app.js"></script>
   <script>
