@@ -1,6 +1,6 @@
 OpenSpeedTest-Server Plugin for FreeNAS | HTML5 Network Performance Estimation Tool.
 
-- Test your WiFi Speed.
+ - Test your WiFi Speed.
  - Run a Speed Test from Your SMART TV & Make sure you have enough Bandwidth to watch 4K60FPS VIDEO FROM your NAS.
  - Run a Speed Test from Any Device with a Web Browser that is Internet Explore 10 or New! 
  - Run a Quick speed test to your work place server via VPN and make sure you have enough bandwidth to finish your job. Install this in your Office Server.
