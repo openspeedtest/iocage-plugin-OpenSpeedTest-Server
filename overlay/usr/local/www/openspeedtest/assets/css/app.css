@@ -4,18 +4,18 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/assets/fonts/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("..fonts/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
   src: local(""),
-    url("/assets/fonts/roboto-v30-latin-regular.eot?#iefix")
+    url("../fonts/roboto-v30-latin-regular.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-IE8 */ url("/assets/fonts/roboto-v30-latin-regular.woff2")
+    /* IE6-IE8 */ url("../fonts/roboto-v30-latin-regular.woff2")
       format("woff2"),
     /* Super Modern Browsers */
-      url("/assets/fonts/roboto-v30-latin-regular.woff") format("woff"),
-    /* Modern Browsers */ url("/assets/fonts/roboto-v30-latin-regular.ttf")
+      url("../fonts/roboto-v30-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v30-latin-regular.ttf")
       format("truetype"),
     /* Safari, Android, iOS */
-      url("/assets/fonts/roboto-v30-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+      url("../fonts/roboto-v30-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 /* roboto-500 - latin */
 @font-face {
@@ -23,18 +23,18 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("/assets/fonts/roboto-v30-latin-500.eot"); /* IE9 Compat Modes */
+  src: url("assets/fonts/roboto-v30-latin-500.eot"); /* IE9 Compat Modes */
   src: local(""),
-    url("/assets/fonts/roboto-v30-latin-500.eot?#iefix")
+    url("assets/fonts/roboto-v30-latin-500.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-IE8 */ url("/assets/fonts/roboto-v30-latin-500.woff2")
+    /* IE6-IE8 */ url("../fonts/roboto-v30-latin-500.woff2")
       format("woff2"),
-    /* Super Modern Browsers */ url("/assets/fonts/roboto-v30-latin-500.woff")
+    /* Super Modern Browsers */ url("../fonts/roboto-v30-latin-500.woff")
       format("woff"),
-    /* Modern Browsers */ url("/assets/fonts/roboto-v30-latin-500.ttf")
+    /* Modern Browsers */ url("../fonts/roboto-v30-latin-500.ttf")
       format("truetype"),
     /* Safari, Android, iOS */
-      url("/assets/fonts/roboto-v30-latin-500.svg#Roboto") format("svg"); /* Legacy iOS */
+      url("../fonts/roboto-v30-latin-500.svg#Roboto") format("svg"); /* Legacy iOS */
 }
 
 body {
@@ -43,11 +43,36 @@ body {
   display: block;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+ 
+.Credits {
+color: rgb(125 119 119);
+text-align: center;
+font-size:14px;
+font-family: Roboto-Medium, Roboto;
+font-weight: 500;
+} 
+.Credits a {
+  text-decoration: none;
+  color: rgb(113, 113, 113);
+}
+.Credits a:hover {
+color: #14b0fe;
+}
+
 .ConnectError {
   display: none;
+
 }
 
 .openSpeedtestApp {
+ 
   height: 100vh;
   width: 100vw;
   display: none;
@@ -348,5 +373,10 @@ body {
   }
   .Desktop {
     visibility: hidden;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .Credits{
+    display: none;
   }
 }
